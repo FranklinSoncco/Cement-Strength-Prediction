@@ -2,7 +2,6 @@ import streamlit as st
 from datetime import datetime
 import logging
 import pickle
-import joblib
 import os
 
 
@@ -29,7 +28,7 @@ st.title("Concrete Strength Predictor")
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load('linear_regression.joblib')
+        model = pickle.load('linear_regression.pkl')
         logging.info("Model loaded successfully")
         return model
     except Exception as e:
