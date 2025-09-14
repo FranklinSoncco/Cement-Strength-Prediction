@@ -59,3 +59,10 @@
 2025-09-14 12:40:57,604 - INFO - Prediction made: 108.71 MPa in 0.001007 seconds
 2025-09-14 14:13:24,648 - INFO - App started
 2025-09-14 14:13:24,901 - ERROR - Error loading model: file must have 'read' and 'readline' attributes
+2025-09-14 14:17:14,381 - INFO - App started
+2025-09-14 14:17:18,239 - INFO - Model loaded successfully with pickle
+2025-09-14 14:17:20,746 - INFO - App started
+2025-09-14 14:17:20,803 - INFO - Prediction made: 39.45 MPa in 0.042957 seconds
+2025-09-14 14:17:28,352 - INFO - App started
+2025-09-14 14:17:28,460 - INFO - App started
+2025-09-14 14:17:28,472 - INFO - Prediction made: 21.52 MPa in 0.0 seconds
