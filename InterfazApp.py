@@ -17,22 +17,24 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger()
-
+logger = logging.getLogger(__name__)
 logger.info("App started")
-
 
 st.title("Concrete Strength Predictor")
 
-# Cargar modelo (cachear para performance)
+# Cargar modelo con pickle (cachear para performance)
 @st.cache_resource
 def load_model():
     try:
-        model = pickle.load('linear_regression.pkl')
-        logging.info("Model loaded successfully")
+        with open('linear_regression.pkl', 'rb') as file:  # ✅ Abrir en modo binario lectura
+            model = pickle.load(file)
+        logger.info("Model loaded successfully with pickle")
         return model
+    except FileNotFoundError:
+        logger.error("Model file 'linear_regression.pkl' not found")
+        raise Exception("Archivo del modelo no encontrado")
     except Exception as e:
-        logging.error(f"Error loading model: {str(e)}")
+        logger.error(f"Error loading model with pickle: {str(e)}")
         raise e
 
 # Inicializar variables
@@ -41,14 +43,13 @@ model = None
 try:
     model = load_model()
     if model is not None:
-        st.success("✅ Modelo cargado correctamente")
+        st.success("✅ Modelo cargado correctamente con pickle")
     else:
         st.error("❌ Modelo no pudo ser cargado")
         st.stop()
 except Exception as e:
     st.error(f"❌ Error cargando modelo: {str(e)}")
     st.stop()
-
 
 
 st.sidebar.header("Características do Concreto")
