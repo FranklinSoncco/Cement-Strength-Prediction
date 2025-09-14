@@ -1,0 +1,59 @@
+2025-09-14 12:24:28,583 - INFO - App started
+2025-09-14 12:24:28,604 - ERROR - Error loading app stats: name 'datatime' is not defined
+2025-09-14 12:24:49,810 - INFO - App started
+2025-09-14 12:24:49,830 - ERROR - Error loading app stats: name 'datatime' is not defined
+2025-09-14 12:35:33,587 - INFO - App started
+2025-09-14 12:35:33,592 - INFO - Model loaded successfully
+2025-09-14 12:35:36,146 - INFO - App started
+2025-09-14 12:35:36,156 - INFO - Prediction made: 39.45 MPa in 0.0 seconds
+2025-09-14 12:35:44,713 - INFO - App started
+2025-09-14 12:35:44,829 - INFO - App started
+2025-09-14 12:35:44,834 - INFO - Prediction made: 213.68 MPa in 0.001007 seconds
+2025-09-14 12:35:48,428 - INFO - App started
+2025-09-14 12:35:48,519 - INFO - App started
+2025-09-14 12:35:48,525 - INFO - Prediction made: 320.88 MPa in 0.0 seconds
+2025-09-14 12:35:52,867 - INFO - App started
+2025-09-14 12:35:52,984 - INFO - App started
+2025-09-14 12:35:52,989 - INFO - Prediction made: 1879.05 MPa in 0.0 seconds
+2025-09-14 12:36:56,888 - INFO - App started
+2025-09-14 12:36:56,910 - ERROR - Error loading app stats: name 'datatime' is not defined
+2025-09-14 12:37:27,448 - INFO - App started
+2025-09-14 12:37:27,455 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:28,727 - INFO - App started
+2025-09-14 12:37:28,735 - INFO - Prediction made: 39.45 MPa in 0.0 seconds
+2025-09-14 12:37:28,737 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:33,091 - INFO - App started
+2025-09-14 12:37:33,105 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:33,209 - INFO - App started
+2025-09-14 12:37:33,216 - INFO - Prediction made: 31.28 MPa in 0.001332 seconds
+2025-09-14 12:37:33,216 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:36,120 - INFO - App started
+2025-09-14 12:37:36,129 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:36,248 - INFO - App started
+2025-09-14 12:37:36,254 - INFO - Prediction made: 22.99 MPa in 0.0 seconds
+2025-09-14 12:37:36,255 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:38,771 - INFO - App started
+2025-09-14 12:37:38,775 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:37:38,892 - INFO - App started
+2025-09-14 12:37:38,900 - INFO - Prediction made: 22.41 MPa in 0.000504 seconds
+2025-09-14 12:37:38,902 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:38:55,376 - INFO - App started
+2025-09-14 12:38:55,384 - ERROR - Error loading app stats: [Errno 2] No such file or directory: 'logs/app.log'
+2025-09-14 12:40:01,612 - INFO - App started
+2025-09-14 12:40:03,346 - INFO - App started
+2025-09-14 12:40:03,357 - INFO - Prediction made: 22.41 MPa in 0.001172 seconds
+2025-09-14 12:40:06,275 - INFO - App started
+2025-09-14 12:40:06,421 - INFO - App started
+2025-09-14 12:40:06,427 - INFO - Prediction made: 22.41 MPa in 0.001006 seconds
+2025-09-14 12:40:10,160 - INFO - App started
+2025-09-14 12:40:11,392 - INFO - App started
+2025-09-14 12:40:11,404 - INFO - Prediction made: 109.99 MPa in 0.0 seconds
+2025-09-14 12:40:13,978 - INFO - App started
+2025-09-14 12:40:14,099 - INFO - App started
+2025-09-14 12:40:14,106 - INFO - Prediction made: 109.99 MPa in 0.0 seconds
+2025-09-14 12:40:20,610 - INFO - App started
+2025-09-14 12:40:20,719 - INFO - App started
+2025-09-14 12:40:20,725 - INFO - Prediction made: 108.71 MPa in 0.0 seconds
+2025-09-14 12:40:55,205 - INFO - App started
+2025-09-14 12:40:57,593 - INFO - App started
+2025-09-14 12:40:57,604 - INFO - Prediction made: 108.71 MPa in 0.001007 seconds
